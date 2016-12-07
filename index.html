@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Giphy Tag Searching Machine</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/font-awesome.min.css">
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/tagscript.js"></script>
+    </head>
+    <body class="background">
+         
+
+       
+<div class="container">
+    <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div id="logo">
+                        Giphy Tag Searching Machine <i class="fa fa-camera-retro fa-lg"></i>
+                </div>
+                <div class="search_form">
+                    <form class="searchbox" role="search">
+                     <div class="form-group col-md-10 col-sm-10 col-xs-12 ">
+                    <input id="search_form"  type="text" placeholder="Please enter tags">
+                    </div>
+                        <div class="col-md-2 col-sm-2 col-xs-12">
+                    <button id="submit" onclick="load();" type="submit" class="btn btn-default center-block">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+            <div class="divider"></div> 
+            <div id="gify"></div>
+            <div id="alert"></div> 
+</div>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </body>
+</html>
